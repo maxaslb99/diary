@@ -43,6 +43,9 @@ p {
   font-size: 20px;
   line-height: 1.5;
 }
+a {
+  color: #fff
+}
 
 
 header {
@@ -196,7 +199,9 @@ nav ul {
       display: flex;
       flex-direction: row;
 
-  justify-content:space-around;
+      margin: 30px;
+
+      justify-content:space-around;
 }
 .program{
   width: 150px;
@@ -205,5 +210,5 @@ nav ul {
   width:100%;
 }
 .program-text>p{
-  width: min-content;
+  width: 150px;
 }

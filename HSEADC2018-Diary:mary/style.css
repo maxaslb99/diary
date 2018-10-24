@@ -44,9 +44,6 @@ p {
   line-height: 1.5;
 }
 
-p + p {
-  margin-top: 16px;
-}
 
 header {
   display: flex;
@@ -68,74 +65,10 @@ header p {
   color: white;
 }
 
-h3.photo {
-  margin-top: 50px;
-}
-
-
-div.photo{
-  position:  relative;
-  top: auto;
-  left:  auto;
-
-  width: 400px;
-  height: 400px;
-
-  background-image: url(images/IMG_3026.JPG);
-  background-position: center;
-  background-size: contain;
-
-}
-
-div.photo3 {
-  position:  relative;
-  top: auto;
-  left:  auto;
-
-  width: 350px;
-  height: 400px;
-
-  background-image: url(images/Unknown.png);
-  background-position: center;
-  background-size: contain;
-}
-
-div.photo4 {
-  position:  relative;
-  top: auto;
-  left:  auto;
-
-  width: 700px;
-  height: 500px;
-
-  background-image: url(images/EF80297F-9A48-475C-8488-39A8B2F49924.JPG);
-  background-position: center;
-  background-size: contain;
-}
-
-div.photo5 {
-  position:  relative;
-  top: auto;
-  left:  auto;
-
-  width: 700px;
-  height: 500px;
-
-  background-image: url(images/IMG_3263.JPG);
-  background-position: center;
-  background-size: contain;
-}
-
-
-section {
-  height: 80vh;
-
+.section {
   color: #fff;
-  background-image: url("bg.jpg");
   background-position: center;
   background-size: cover;
-
-  font-family: "Fira Mono", monospace;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -148,7 +81,7 @@ nav ul {
 
   display: flex;
 
-  width: 900px;
+  width: 850px;
   margin: 0 auto;
   padding: 10px 15px;
 
@@ -157,7 +90,120 @@ nav ul {
 
   background-color: #412234;
 
-  font-size: 16px;
+  font-size: 14px;
 
   justify-content: space-between;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+    width: 700px;
+    margin: 0 auto;
+}
+.content-block{
+  width: 100%;
+}
+.content-block>img{
+  top: auto;
+  left:  auto;
+
+  width: 100%;
+
+  background-image: url(images/IMG_3026.JPG);
+  background-position: center;
+  background-size: contain;
+}
+.content-block>h3+img{
+  margin-top: 30px;
+}
+.zakhar-description{
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  justify-content:space-around;
+  align-items:center;
+}
+.zakhar-text{
+  width: 350px;
+}
+.zakhar-text>p{
+  width: 100%;
+
+  text-align: center;
+}
+.zakhar-photo-column{
+  display: flex;
+  flex-direction: column;
+
+  width: 100px;
+  height:100%;
+}
+.zakhar-photo-column img{
+  width: 100%;
+  margin: 20px 0;
+}
+.about{
+
+}
+.about-content{
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 20px;
+
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content:space-around;
+}
+.about-content img{
+  margin: 20px 0;
+}
+.about-events{
+    display: flex;
+    flex-direction: column;
+
+  width: 400px;
+
+    text-align: center;
+
+    justify-content:space-around;
+}
+.about-events p{
+  width: auto;
+}
+.about-events>div{
+      display: flex;
+      flex-direction: row;
+
+          justify-content:space-around;
+}
+.about-events>div>p{
+  width: min-content;
+}
+#about-photo-1{
+  width: 200px;
+  height: 300px;
+}
+#about-photo-2{
+  width: 250px;
+  height: 200px;
+}
+.program-container{
+      display: flex;
+      flex-direction: row;
+
+  justify-content:space-around;
+}
+.program{
+  width: 150px;
+}
+.program img{
+  width:100%;
+}
+.program-text>p{
+  width: min-content;
 }

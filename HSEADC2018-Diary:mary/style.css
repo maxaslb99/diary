@@ -238,8 +238,10 @@ margin: 20px;
 .program-text>p{
   width: 150px;
 
+text-align:  center;
+
   font-family: 'Source Sans Pro', sans-serif;
-font-weight: bold;
+ font-weight: bold;
 }
 .kotik {
   width: 700px;
@@ -255,7 +257,9 @@ margin-top: 50px;
   display:flex;
 
   width: 180px;
-margin-left: 100px;
+margin-left: 90px;
+
+text-align:  center;
 }
 
 .kotik>.aboutkotik>p {

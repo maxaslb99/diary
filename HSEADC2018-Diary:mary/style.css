@@ -48,11 +48,13 @@ p {
   line-height: 1.5;
 }
 a {
+text-decoration: none;
+
   color: #fff
 }
 
 body {
-  background-image: url(images/3.jpg);
+  background-image: url(images/7.jpg);
 }
 
 header {
@@ -139,18 +141,18 @@ nav ul {
   align-items:center;
 }
 .zakhar-text{
-  width: 350px;
-
-
-
+  width: 450px;
 }
 .zakhar-text>p{
   width: 100%;
 
-  background: #fff;
-
   font-family: 'Source Sans Pro', sans-serif;
 
+}
+.strelki{
+  position: absolute;
+
+  margin-left: 30px;
 }
 .zakhar-photo-column{
   display: flex;
@@ -193,26 +195,28 @@ nav ul {
 .about-events p{
   width: auto;
 
-  color:  #D1DD4E;
+  color:  black;
 
   font-family: 'Source Sans Pro', sans-serif;
-font-size: 20px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight:  bold;
 }
 .about-events>div{
       display: flex;
       flex-direction: row;
 
-          justify-content:space-around;
+margin: 20px;
+
+
 }
 
 #about-photo-1{
-  width: 300px;
+  width: 240px;
   height: 300px;
 
 }
 #about-photo-2{
-  width:300px;
+  width:400px;
   height: 300px;
 
 
@@ -250,18 +254,14 @@ margin-top: 50px;
 .kotik>.aboutkotik {
   display:flex;
 
-  width: 700px;
-
-
+  width: 180px;
+margin-left: 100px;
 }
 
 .kotik>.aboutkotik>p {
-  flex-direction: column;
-
   opacity: 0.5;
-  background-color: #fff;
 
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 30px;
+  font-size: 14px;
 font-weight: bold;
   }

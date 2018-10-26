@@ -135,7 +135,8 @@ nav ul {
   flex-direction: row;
 
   width: 100%;
-  margin: 50px;
+  width: 700px;
+margin-top: 50px;
 
   justify-content:space-around;
   align-items:center;
@@ -156,14 +157,13 @@ nav ul {
 }
 .zakhar-photo-column{
   display: flex;
-  flex-direction: column;
 
   width: 100px;
   height:100%;
 }
 .zakhar-photo-column img{
   width: 100%;
-  margin: 20px 0;
+
 }
 .about{
 
